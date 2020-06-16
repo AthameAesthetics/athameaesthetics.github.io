@@ -73,6 +73,16 @@
 			}
 		}
 
+		&.ae-logo {
+			display: block;
+			margin: (_size(element-margin) * 1.25) 0;
+			width: 50%;
+
+			img {
+				width: 100%;
+			}
+		}
+
 		@include breakpoint(small) {
 			&.main {
 				margin: (_size(element-margin) * 1) 0;

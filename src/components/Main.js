@@ -22,64 +22,70 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
-          id="intro"
-          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+          id="menu"
+          className={`${this.props.article === 'menu' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Menu</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
+          <h3>Skin Rituals</h3>
+          <strong>Invigorating Facial: $80</strong>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            A double cleanse with deep exfoliation, extractions, a mask and
+            finishing products. <br />
+            <em>60 Minutes</em>
           </p>
+          <strong>Body and Soul Facial: $105</strong>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Includes a pampering back and foot treatment as well as the benefits
+            of the invigorating facial. <br />
+            <em>90 Minutes</em>
+          </p>
+          <strong>Deep Dive Pore Cleansing Oxygen Facial: $90</strong>
+          <p>
+            Deep Pore refining 02 Lift product with ultrasonic extraction and
+            finishing. <br />
+            <em>50 Minutes</em>
+          </p>
+
+          <strong>Microneedling: $180</strong>
+          <p>
+            “Collagen Induction Therapy” creates micro channels in the skin,
+            allowing the regenerative healing process which aids in softening
+            lines, scarring, and mild forms of acne and pigment. <br />
+            <em>60 minutes with consultation</em>
           </p>
           {close}
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="axiom"
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Axiom</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic01} alt="" />
           </span>
+          {/* <p>
+            THis is kori's stuff hahahahahahhahahahahahahahahahahahahahahahah
+            By the way, check out my <a href="#work">awesome work</a>.
+          </p> */}
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            My name is Kori Witmer. I am a driven and passionate Master
+            Esthetician. My love of my work is only matched by my love for
+            helping others. I thrive on positive change in our modern day
+            movement to make Beauty and Wellness into one shared meaning. Much
+            like the Athame; I am dedicated to being your guide to natural
+            wellness, empowerment, and enlightened energy through the rituals of
+            skin care, relaxation and positive reflection. May you find self
+            love in mind, body and soul.
           </p>
           {close}
         </article>
@@ -115,7 +121,10 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form
+            method="post"
+            action="https://getform.io/f/a1ca4435-1925-41c2-bfa5-a0e0c8c86b6e"
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -138,14 +147,14 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li>
+            {/* <li>
               <a
                 href="https://twitter.com/HuntaroSan"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
@@ -156,14 +165,14 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://github.com/codebushi/gatsby-starter-dimension"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
               </a>
-            </li>
+            </li> */}
           </ul>
           {close}
         </article>

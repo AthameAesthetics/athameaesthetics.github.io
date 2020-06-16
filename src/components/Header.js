@@ -1,20 +1,25 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import logo from '../images/logo.png'
+import pic03 from '../images/pic03.jpg'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
+    <span className="image ae-logo">
+      <img src={logo} alt="" />
+    </span>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-moon-o"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Athame Aesthetics</h1>
+        <h1>Welcome to Athame Aesthetics</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          My name is Kori Witmer. I am a dedicated master aesthetician as well
+          as a teacher in this amazing field of work. My passion for skin care
+          is only rivaled by my desire to make a positive difference in this
+          world, one person at a time. It all begins with loving the skin you
+          are in!
         </p>
       </div>
     </div>
@@ -23,19 +28,19 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('intro')
+              props.onOpenArticle('menu')
             }}
           >
-            Intro
+            Menu
           </button>
         </li>
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('intro')
             }}
           >
-            Work
+            Axiom
           </button>
         </li>
         <li>
