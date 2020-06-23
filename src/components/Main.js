@@ -282,7 +282,7 @@ class Main extends React.Component {
                 <span className="label">Twitter</span>
               </a>
             </li> */}
-            <li>
+            {/* <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
@@ -291,7 +291,7 @@ class Main extends React.Component {
               <a href="https://codebushi.com" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
-            </li>
+            </li> */}
             {/* <li>
               <a
                 href="https://github.com/codebushi/gatsby-starter-dimension"
