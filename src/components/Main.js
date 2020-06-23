@@ -142,7 +142,8 @@ class Main extends React.Component {
             <h3>Nail Ritual</h3>
             <tbody>
               <tr>
-                <td>Gel Manicure Polish: $25 Gel Polish Removal: $10</td>
+                <td>Gel Manicure Polish: $25 Gel</td>
+                <td>Polish Removal: $10</td>
               </tr>
             </tbody>
           </table>
