@@ -17,7 +17,7 @@ const Header = props => (
         <p>
           My passion for skin care is only rivaled by my desire to make a
           positive difference in this world, one person at a time. <br />
-          It all begins with loving the skin you are in!
+          It all begins with loving the skin you are in.
         </p>
       </div>
     </div>
