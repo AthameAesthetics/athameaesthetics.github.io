@@ -143,7 +143,9 @@ class Main extends React.Component {
             <tbody>
               <tr>
                 <td>Gel Manicure Polish: $25 Gel</td>
-                <td>Polish Removal: $10</td>
+                <tr>
+                  <td>Polish Removal: $10</td>
+                </tr>
               </tr>
             </tbody>
           </table>
