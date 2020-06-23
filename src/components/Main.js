@@ -30,35 +30,145 @@ class Main extends React.Component {
         >
           <h2 className="major">Menu</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic01} alt="" />
           </span>
           <h3>Skin Rituals</h3>
+          <hr />
           <strong>Invigorating Facial: $80</strong>
           <p>
             A double cleanse with deep exfoliation, extractions, a mask and
             finishing products. <br />
+            <br />
             <em>60 Minutes</em>
           </p>
+          <hr />
           <strong>Body and Soul Facial: $105</strong>
           <p>
             Includes a pampering back and foot treatment as well as the benefits
             of the invigorating facial. <br />
+            <br />
             <em>90 Minutes</em>
           </p>
+          <hr />
           <strong>Deep Dive Pore Cleansing Oxygen Facial: $90</strong>
           <p>
             Deep Pore refining 02 Lift product with ultrasonic extraction and
             finishing. <br />
+            <br />
             <em>50 Minutes</em>
           </p>
-
+          <hr />
           <strong>Microneedling: $180</strong>
           <p>
             “Collagen Induction Therapy” creates micro channels in the skin,
             allowing the regenerative healing process which aids in softening
             lines, scarring, and mild forms of acne and pigment. <br />
+            <br />
             <em>60 minutes with consultation</em>
           </p>
+          <hr />
+          <p>
+            *Add LED Phototherapy to ANY facial service: 15 minutes for an
+            additional $10.
+          </p>
+          <hr />
+          <h3>Waxing Rituals</h3>
+          <table>
+            <strong>Face</strong>
+            <tbody>
+              <tr>
+                <td>Brows: $20</td>
+              </tr>
+              <tr>
+                <td>Lip: $15</td>
+              </tr>
+              <tr>
+                <td>Cheeks: $10</td>
+              </tr>
+              <tr>
+                <td>Nose/Toes/Ears: $10</td>
+              </tr>
+              <tr>
+                <td>Let’s Do it All: $40 ($45 with cheeks)</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <strong>Body</strong>
+            <tbody>
+              <tr>
+                <td>Half Leg: $40</td>
+              </tr>
+              <tr>
+                <td>Full Leg: $55</td>
+              </tr>
+              <tr>
+                <td>Underarm: $25</td>
+              </tr>
+              <tr>
+                <td>Bikini: $35</td>
+              </tr>
+              <tr>
+                <td>Brazilian: $55</td>
+              </tr>
+              <tr>
+                <td>360 Brazilian (includes butt cheeks): $80</td>
+              </tr>
+              <tr>
+                <td>Full Leg and Brazilian Combo: $105</td>
+              </tr>
+              <tr>
+                <td>Half Arm: $30</td>
+              </tr>
+              <tr>
+                <td>Full Arm: $45</td>
+              </tr>
+              <tr>
+                <td>Chest: $40</td>
+              </tr>
+              <tr>
+                <td>Half Back: $45</td>
+              </tr>
+              <tr>
+                <td>Full Back: $65</td>
+              </tr>
+              <tr>
+                <td>Full Body: Face to the Floor: $300</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr />
+          <table>
+            <h3>Nail Ritual</h3>
+            <tbody>
+              <tr>
+                <td>Gel Manicure Polish: $25 Gel Polish Removal: $10</td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <hr />
+            <table>
+              <h3>Lash and Brow Rituals</h3>
+              <tbody>
+                <tr>
+                  <td>Lash Lift: $45</td>
+                </tr>
+                <tr>
+                  <td>Lash Lift and Tint: $5</td>
+                </tr>
+                <tr>
+                  <td>Brow Tint: $10</td>
+                </tr>
+                <tr>
+                  <td>Lash Tint: $20</td>
+                </tr>
+                <tr>
+                  <td>All of it: $65</td>
+                </tr>
+              </tbody>
+            </table>
+          </table>
           {close}
         </article>
 
@@ -71,12 +181,10 @@ class Main extends React.Component {
         >
           <h2 className="major">Axiom</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic02} alt="" />
           </span>
-          {/* <p>
-            THis is kori's stuff hahahahahahhahahahahahahahahahahahahahahahah
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p> */}
+
+          <h3>About</h3>
           <p>
             My name is Kori Witmer. I am a driven and passionate Master
             Esthetician. My love of my work is only matched by my love for
@@ -87,10 +195,29 @@ class Main extends React.Component {
             skin care, relaxation and positive reflection. May you find self
             love in mind, body and soul.
           </p>
+          <p>
+            Me saying I have a big heart full of hopes and dreams is an
+            understatement. Before I became an aesthetician, I wondered how I
+            could possibly change the world for the better. I realized the more
+            time I spent around other people and became familiar with unique
+            mannerisms: I realized something very important: People are
+            generally more outwardly kind and helpful when they feel good about
+            themselves. So, fast forward a few years; here I am now. I am in
+            this position where I am motivated and driven by the passion of my
+            work and finally have this opportunity to use my passion and skills
+            to help people feel good about the skin they are in. To encourage,
+            inspire and teach anyone who will listen that health and beauty
+            share one meaning. It is not about “wealthy equals healthy”, and all
+            I have ever wanted is to make people feel as good about themselves
+            as I feel about being a skincare provider. I will provide you with a
+            safe space to allow yourself to dive deeper into the realm of
+            skincare and wellness, and will thrive with you on your journey to a
+            more confident and healthy you!
+          </p>
           {close}
         </article>
 
-        <article
+        {/* <article
           id="about"
           className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -111,7 +238,7 @@ class Main extends React.Component {
             amet.
           </p>
           {close}
-        </article>
+        </article> */}
 
         <article
           id="contact"
