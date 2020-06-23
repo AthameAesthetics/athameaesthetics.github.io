@@ -158,7 +158,7 @@ class Main extends React.Component {
                   <td>Lash Lift: $45</td>
                 </tr>
                 <tr>
-                  <td>Lash Lift and Tint: $5</td>
+                  <td>Lash Lift and Tint: $55</td>
                 </tr>
                 <tr>
                   <td>Brow Tint: $10</td>
