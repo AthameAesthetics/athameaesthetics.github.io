@@ -15,11 +15,9 @@ const Header = props => (
       <div className="inner">
         <h1>Welcome to Athame Aesthetics</h1>
         <p>
-          My name is Kori Witmer. I am a dedicated master aesthetician as well
-          as a teacher in this amazing field of work. My passion for skin care
-          is only rivaled by my desire to make a positive difference in this
-          world, one person at a time. It all begins with loving the skin you
-          are in!
+          My passion for skin care is only rivaled by my desire to make a
+          positive difference in this world, one person at a time. <br />
+          It all begins with loving the skin you are in!
         </p>
       </div>
     </div>
