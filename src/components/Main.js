@@ -273,8 +273,8 @@ class Main extends React.Component {
               </li>
             </ul>
           </form>
-          {/* <ul className="icons"> */}
-          {/* <li>
+          <ul className="icons">
+            {/* <li>
               <a
                 href="https://twitter.com/HuntaroSan"
                 className="icon fa-twitter"
@@ -282,17 +282,20 @@ class Main extends React.Component {
                 <span className="label">Twitter</span>
               </a>
             </li> */}
-          {/* <li>
+            {/* <li>
               <a href="https://codebushi.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/athameaesthetics/"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
-            </li> */}
-          {/* <li>
+            </li>
+            {/* <li>
               <a
                 href="https://github.com/codebushi/gatsby-starter-dimension"
                 className="icon fa-github"
@@ -300,7 +303,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li> */}
-          {/* </ul> */}
+          </ul>
           {close}
         </article>
       </div>
