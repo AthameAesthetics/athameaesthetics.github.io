@@ -58,6 +58,15 @@ class Main extends React.Component {
             <em>50 Minutes</em>
           </p>
           <hr />
+          <strong>Chemical Peel: $95</strong>
+          <p>
+            Choose from a variety of chemical peels for different skin concerns
+            and healing. Peel strength will be decided during a skin
+            consultation. <br />
+            <br />
+            <em>60 minutes with consultation</em>
+          </p>
+          <hr />
           <strong>Microneedling: $180</strong>
           <p>
             “Collagen Induction Therapy” creates micro channels in the skin,
@@ -137,28 +146,17 @@ class Main extends React.Component {
               </tr>
             </tbody>
           </table>
-          <hr />
-          <table>
-            <h3>Nail Ritual</h3>
-            <tbody>
-              <tr>
-                <td>Gel Manicure Polish: $25 Gel</td>
-                <tr>
-                  <td>Polish Removal: $10</td>
-                </tr>
-              </tr>
-            </tbody>
-          </table>
+
           <table>
             <hr />
             <table>
               <h3>Lash and Brow Rituals</h3>
               <tbody>
                 <tr>
-                  <td>Lash Lift: $45</td>
+                  <td>Lash Lift: $55</td>
                 </tr>
                 <tr>
-                  <td>Lash Lift and Tint: $55</td>
+                  <td>Lash Lift and Tint: $65</td>
                 </tr>
                 <tr>
                   <td>Brow Tint: $10</td>
@@ -167,7 +165,7 @@ class Main extends React.Component {
                   <td>Lash Tint: $20</td>
                 </tr>
                 <tr>
-                  <td>All of it: $65</td>
+                  <td>All of it: $70</td>
                 </tr>
               </tbody>
             </table>
@@ -190,7 +188,7 @@ class Main extends React.Component {
           <h3>About</h3>
           <p>
             My name is Kori Witmer. I am a driven and passionate Master
-            Esthetician. My love of my work is only matched by my love for
+            Esthetician. The adoration of my work is only matched by my love for
             helping others. I thrive on positive change in our modern day
             movement to make Beauty and Wellness into one shared meaning. Much
             like the Athame; I am dedicated to being your guide to natural
@@ -198,25 +196,7 @@ class Main extends React.Component {
             skin care, relaxation and positive reflection. May you find self
             love in mind, body and soul.
           </p>
-          <p>
-            Me saying I have a big heart full of hopes and dreams is an
-            understatement. Before I became an aesthetician, I wondered how I
-            could possibly change the world for the better. I realized the more
-            time I spent around other people and became familiar with unique
-            mannerisms: I realized something very important: People are
-            generally more outwardly kind and helpful when they feel good about
-            themselves. So, fast forward a few years; here I am now. I am in
-            this position where I am motivated and driven by the passion of my
-            work and finally have this opportunity to use my passion and skills
-            to help people feel good about the skin they are in. To encourage,
-            inspire and teach anyone who will listen that health and beauty
-            share one meaning. It is not about “wealthy equals healthy”, and all
-            I have ever wanted is to make people feel as good about themselves
-            as I feel about being a skincare provider. I will provide you with a
-            safe space to allow yourself to dive deeper into the realm of
-            skincare and wellness, and will thrive with you on your journey to a
-            more confident and healthy you!
-          </p>
+
           {close}
         </article>
 
@@ -251,6 +231,11 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          4568 South Highland Drive <br />
+          Suite 380
+          <br />
+          Holladay, UT 84117
+          <hr />
           <form
             method="post"
             action="https://getform.io/f/a1ca4435-1925-41c2-bfa5-a0e0c8c86b6e"
