@@ -231,11 +231,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          4568 South Highland Drive <br />
-          Suite 380
-          <br />
-          Holladay, UT 84117
-          <hr />
+
           <form
             method="post"
             action="https://getform.io/f/a1ca4435-1925-41c2-bfa5-a0e0c8c86b6e"
