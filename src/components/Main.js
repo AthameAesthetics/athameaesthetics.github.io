@@ -2,7 +2,6 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -23,12 +22,12 @@ class Main extends React.Component {
       >
         <article
           id="menu"
-          className={`${this.props.article === 'menu' ? 'active' : ''} ${
+          className={`${this.props.article === 'aesthetics' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Menu</h2>
+          <h2 className="major">Aesthetics Rituals</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -174,13 +173,83 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="axiom"
+          id="massage"
+          className={`${this.props.article === 'massage' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Massage Rituals</h2>
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <hr />
+          <strong>Metta Massage Ritual</strong>
+          <p>
+            Your style choice of classic Swedish, sports or Reiki massage aimed
+            to heal and encourage deep muscle relaxation.
+            <br />
+            <br />
+            60 minutes: $85 <br />
+            90 minutes: $125 <br />
+            Enhance with Deep Tissue: $10
+          </p>
+          <hr />
+          <strong>Awakening Fascia Relief Ritual</strong>
+          <p>
+            Incorporates the addition of Facia Blaster™ tools used to release
+            fascia tissue buildup and relieve deep muscle pain, leaving the skin
+            noticeably smoother and revealing deeper muscle tone. A
+            complimentary 10 minute consultation is required for first time
+            clients. Please book accordingly.
+            <br />
+            <br />
+            60 minutes: $90
+            <br />
+            90 minutes: $130
+          </p>
+          <hr />
+          <em>Body Treatments Rituals coming soon...</em>
+          <hr />
+          {close}
+        </article>
+
+        <article
+          id="electrolysis"
+          className={`${
+            this.props.article === 'electrolysis' ? 'active' : ''
+          } ${this.props.articleTimeout ? 'timeout' : ''}`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Electrolysis Rituals</h2>
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <hr />
+          <strong>Permanent Hair Removal Ritual</strong>
+          <p>
+            Electrolysis permanent hair removal is a safe and incredible way to
+            say goodbye to unwanted hairs for good. A complimentary 10 minute
+            consultation will be required for first time clients, please book
+            accordingly.
+            <br />
+            <br />
+            30 Minutes: $45
+            <br />
+            60 Minutes: $75
+          </p>
+          <hr />
+          {close}
+        </article>
+
+        <article
+          id="about"
           className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Axiom</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>

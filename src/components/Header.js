@@ -15,9 +15,9 @@ const Header = props => (
       <div className="inner">
         <h1>Welcome to Athame Aesthetics</h1>
         <p>
-          My passion for skin care is only rivaled by my desire to make a
-          positive difference in this world, one person at a time. <br />
-          It all begins with loving the skin you are in.
+          Our passion for natural wellness is only rivaled by our desire to make
+          a positive difference in this world, <br />
+          one person at a time. It all begins with loving the skin you are in.
         </p>
       </div>
     </div>
@@ -26,10 +26,28 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('menu')
+              props.onOpenArticle('aesthetics')
             }}
           >
-            Menu
+            Aesthetics
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('massage')
+            }}
+          >
+            Massage
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('electrolysis')
+            }}
+          >
+            Electrolysis
           </button>
         </li>
         <li>
@@ -38,7 +56,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Axiom
+            About
           </button>
         </li>
         <li>
