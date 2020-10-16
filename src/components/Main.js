@@ -236,7 +236,7 @@ class Main extends React.Component {
             <br />
             30 Minutes: $45
             <br />
-            60 Minutes: $75
+            60 Minutes: $80
           </p>
           <hr />
           {close}
@@ -256,14 +256,15 @@ class Main extends React.Component {
 
           <h3>About</h3>
           <p>
-            My name is Kori Witmer. I am a driven and passionate Master
-            Esthetician. The adoration of my work is only matched by my love for
-            helping others. I thrive on positive change in our modern day
-            movement to make Beauty and Wellness into one shared meaning. Much
-            like the Athame; I am dedicated to being your guide to natural
-            wellness, empowerment, and enlightened energy through the rituals of
-            skin care, relaxation and positive reflection. May you find self
-            love in mind, body and soul.
+            We are driven and passionate masters of our craft. The adoration of
+            our work is only matched by our love for helping others. We thrive
+            on positive change in our modern day movement to make Beauty and
+            Wellness into one shared meaning. Much like the Athame; we are
+            dedicated to being your guides to natural wellness, empowerment, and
+            enlightened energy through the rituals of skin care, relaxation and
+            positive reflection. May you find self love in mind, body and soul.
+            <br /> <br />
+            <em>-Kori, Maddie and Shanna.</em>
           </p>
 
           {close}
@@ -300,6 +301,12 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+
+          <p>
+            825 East 4800 South <br />
+            Suite 230 <br />
+            Murray, UT 87107 <br />
+          </p>
 
           <form
             method="post"
