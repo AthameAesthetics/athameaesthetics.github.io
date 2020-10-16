@@ -190,8 +190,8 @@ class Main extends React.Component {
             to heal and encourage deep muscle relaxation.
             <br />
             <br />
-            60 minutes: $85 <br />
-            90 minutes: $125 <br />
+            60 minutes: $75 <br />
+            90 minutes: $115 <br />
             Enhance with Deep Tissue: $10
           </p>
           <hr />
@@ -204,9 +204,9 @@ class Main extends React.Component {
             clients. Please book accordingly.
             <br />
             <br />
-            60 minutes: $90
+            60 minutes: $80
             <br />
-            90 minutes: $130
+            90 minutes: $120
           </p>
           <hr />
           <em>Body Treatments Rituals coming soon...</em>
