@@ -237,6 +237,8 @@ class Main extends React.Component {
             30 Minutes: $45
             <br />
             60 Minutes: $80
+            <br />
+            90 Minutes: $120
           </p>
           <hr />
           {close}
