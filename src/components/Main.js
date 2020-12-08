@@ -201,6 +201,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4822309"
+          >
+            Book Appointment
+          </a>
           <hr />
           <strong>Metta Massage Ritual</strong>
           <p>
@@ -229,6 +235,12 @@ class Main extends React.Component {
           <hr />
           <em>Body Treatments Rituals coming soon...</em>
           <hr />
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4822309"
+          >
+            Book Appointment
+          </a>
           {close}
         </article>
 
@@ -243,6 +255,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4819667"
+          >
+            Book Appointment
+          </a>
           <hr />
           <strong>Permanent Hair Removal Ritual</strong>
           <p>
@@ -259,6 +277,12 @@ class Main extends React.Component {
             90 Minutes: $120
           </p>
           <hr />
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4819667"
+          >
+            Book Appointment
+          </a>
           {close}
         </article>
 
