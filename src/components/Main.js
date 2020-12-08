@@ -31,6 +31,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+          >
+            Book Appointment
+          </a>
           <h3>Skin Rituals</h3>
           <hr />
           <strong>Invigorating Facial: $80</strong>
@@ -80,6 +86,12 @@ class Main extends React.Component {
             additional $10.
           </p>
           <hr />
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+          >
+            Book Appointment
+          </a>
           <h3>Waxing Rituals</h3>
           <table>
             <strong>Face</strong>
@@ -149,6 +161,12 @@ class Main extends React.Component {
           <table>
             <hr />
             <table>
+              <a
+                className="appointment"
+                href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+              >
+                Book Appointment
+              </a>
               <h3>Lash and Brow Rituals</h3>
               <tbody>
                 <tr>
