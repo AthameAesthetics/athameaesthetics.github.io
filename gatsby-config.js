@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Athame Aesthetics',
     author: 'Patrick Witmer',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    description: 'Athame Aesthetics website, information, and spa menu.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

@@ -29,7 +29,7 @@ const Layout = ({ children, location }) => {
           }
         }
       `}
-      render={data => (
+      render={(data) => (
         <>
           <Helmet
             title={data.site.siteMetadata.title}
@@ -37,7 +37,7 @@ const Layout = ({ children, location }) => {
               {
                 name: 'description',
                 content:
-                  'Full service skincare, waxing, nails, lashes, and brows located in Salt Lake City, Utah',
+                  'Full service skincare, waxing, lashes, and brows located in Salt Lake City, Utah',
               },
               // { name: 'keywords', content: 'sample, something' },
             ]}
