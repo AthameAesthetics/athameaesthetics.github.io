@@ -43,6 +43,10 @@ const Layout = ({ children, location }) => {
             ]}
           >
             <html lang="en" />
+            <script
+              src="https://www.google.com/recaptcha/api.js"
+              type="text/javascript"
+            />
           </Helmet>
           {content}
         </>

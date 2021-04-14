@@ -369,11 +369,13 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LdN4KkaAAAAABbkYRtn7WZ5JmQ17DlYS_62CILC"
+              ></div>
+              <br />
               <li>
                 <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
               </li>
             </ul>
           </form>
