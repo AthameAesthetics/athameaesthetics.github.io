@@ -120,7 +120,7 @@ class Main extends React.Component {
                 <td>Half Leg: $40</td>
               </tr>
               <tr>
-                <td>Full Leg: $55</td>
+                <td>Full Leg: $65</td>
               </tr>
               <tr>
                 <td>Underarm: $25</td>
@@ -233,8 +233,7 @@ class Main extends React.Component {
             90 minutes: $120
           </p>
           <hr />
-          <em>Body Treatments Rituals coming soon...</em>
-          <hr />
+
           <a
             className="appointment"
             href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4822309"
@@ -283,6 +282,93 @@ class Main extends React.Component {
           >
             Book Appointment
           </a>
+          {close}
+        </article>
+
+        <article
+          id="advanced"
+          className={`${this.props.article === 'advanced' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Advanced Skin Rituals</h2>
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+          >
+            Book Appointment
+          </a>
+          <hr />
+          <p>
+            The following Advanced Skin Rituals are priced by single application
+            or an allotted time frame. <br />
+            <br />
+            <h3>Cherry Angioma Reduction</h3>
+            <h3>Telangiectasia Vein Reduction</h3>
+            <h3>Skin Tag Reduction</h3>
+            <h3>Milia Removal </h3>
+            <em>Single treatment application: $50 (one area of concern)</em>
+            <br />
+            <em>
+              30 minute treatment: $60 (Continual treatment of more than one
+              area of concern)
+            </em>
+          </p>
+          <hr />
+          {close}
+        </article>
+
+        <article
+          id="body"
+          className={`${this.props.article === 'body' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Body Treatment Rituals</h2>
+          <span className="image main">
+            <img src={pic01} alt="" />
+          </span>
+          <a
+            className="appointment"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+          >
+            Book Appointment
+          </a>
+          <hr />
+
+          <h3>Deep Submerge Body Cocoon:</h3>
+          <p>
+            Deep manual body exfoliation followed by a massage application of
+            our Oligomer rich remineralizing formula that will deeply hydrate
+            the body, improve microcirculation, release tension, tone and calm
+            skin irritations. This is a must have for a complete body revival.{' '}
+          </p>
+
+          <em>50 Minutes: $65</em>
+
+          <hr />
+          <h3>M’lis Detoxifying Slimming Wrap</h3>
+          <p>
+            A stimulating body wrap that reduces the appearance of cellulite and
+            aids in weight loss and body detoxification. Whether you want to
+            lose a few inches right away or accelerate the results of a
+            lifestyle change: this wrap is a must try.
+          </p>
+
+          <em>Single Session: $100</em>
+          <br />
+          <em>Series* of 5: $400 </em>
+          <br />
+          <em>
+            *Series treatments yield better long-term results. Consultation
+            recommended.{' '}
+          </em>
+          <hr />
           {close}
         </article>
 
