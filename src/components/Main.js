@@ -33,7 +33,7 @@ class Main extends React.Component {
           </span>
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -88,7 +88,7 @@ class Main extends React.Component {
           <hr />
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -163,7 +163,7 @@ class Main extends React.Component {
             <table>
               <a
                 className="appointment"
-                href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+                href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
               >
                 Book Appointment
               </a>
@@ -203,7 +203,7 @@ class Main extends React.Component {
           </span>
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4822309"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -236,7 +236,7 @@ class Main extends React.Component {
 
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4822309"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -256,7 +256,7 @@ class Main extends React.Component {
           </span>
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4819667"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -278,7 +278,7 @@ class Main extends React.Component {
           <hr />
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4819667"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -298,7 +298,7 @@ class Main extends React.Component {
           </span>
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
@@ -335,7 +335,7 @@ class Main extends React.Component {
           </span>
           <a
             className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633&calendarID=4790472"
+            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
           >
             Book Appointment
           </a>
