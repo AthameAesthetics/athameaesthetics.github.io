@@ -349,7 +349,7 @@ class Main extends React.Component {
             skin irritations. This is a must have for a complete body revival.{' '}
           </p>
 
-          <em>50 Minutes: $65</em>
+          <em>50 Minutes: $85</em>
 
           <hr />
           <h3>M’lis Detoxifying Slimming Wrap</h3>
