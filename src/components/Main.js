@@ -341,7 +341,7 @@ class Main extends React.Component {
           </a>
           <hr />
 
-          <h3>Deep Submerge Body Cocoon:</h3>
+          <h3>Deep Submerge Body Cocoon</h3>
           <p>
             Deep manual body exfoliation followed by a massage application of
             our Oligomer rich remineralizing formula that will deeply hydrate
