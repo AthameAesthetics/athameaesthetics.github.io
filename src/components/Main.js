@@ -47,7 +47,7 @@ class Main extends React.Component {
             <em>60 Minutes</em>
           </p>
           <hr />
-          <strong>Body and Soul Facial: $105</strong>
+          <strong>Body and Soul Facial: $115</strong>
           <p>
             Includes a pampering back and foot treatment as well as the benefits
             of the invigorating facial. <br />
@@ -72,7 +72,7 @@ class Main extends React.Component {
             <em>60 minutes with consultation</em>
           </p>
           <hr />
-          <strong>Microneedling: $180</strong>
+          <strong>Microneedling: $195</strong>
           <p>
             “Collagen Induction Therapy” creates micro channels in the skin,
             allowing the regenerative healing process which aids in softening
@@ -191,138 +191,6 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="massage"
-          className={`${this.props.article === 'massage' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Massage Rituals</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <a
-            className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
-          >
-            Book Appointment
-          </a>
-          <hr />
-          <strong>Metta Massage Ritual</strong>
-          <p>
-            Your style choice of classic Swedish, sports or Reiki massage aimed
-            to heal and encourage deep muscle relaxation.
-            <br />
-            <br />
-            60 minutes: $75 <br />
-            90 minutes: $115 <br />
-            Enhance with Deep Tissue: $10
-          </p>
-          <hr />
-          <strong>Awakening Fascia Relief Ritual</strong>
-          <p>
-            Incorporates the addition of Facia Blaster™ tools used to release
-            fascia tissue buildup and relieve deep muscle pain, leaving the skin
-            noticeably smoother and revealing deeper muscle tone. A
-            complimentary 10 minute consultation is required for first time
-            clients. Please book accordingly.
-            <br />
-            <br />
-            60 minutes: $80
-            <br />
-            90 minutes: $120
-          </p>
-          <hr />
-
-          <a
-            className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
-          >
-            Book Appointment
-          </a>
-          {close}
-        </article>
-
-        <article
-          id="electrolysis"
-          className={`${
-            this.props.article === 'electrolysis' ? 'active' : ''
-          } ${this.props.articleTimeout ? 'timeout' : ''}`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Electrolysis Rituals</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <a
-            className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
-          >
-            Book Appointment
-          </a>
-          <hr />
-          <strong>Permanent Hair Removal Ritual</strong>
-          <p>
-            Electrolysis permanent hair removal is a safe and incredible way to
-            say goodbye to unwanted hairs for good. A complimentary 10 minute
-            consultation will be required for first time clients, please book
-            accordingly.
-            <br />
-            <br />
-            30 Minutes: $45
-            <br />
-            60 Minutes: $80
-            <br />
-            90 Minutes: $120
-          </p>
-          <hr />
-          <a
-            className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
-          >
-            Book Appointment
-          </a>
-          {close}
-        </article>
-
-        <article
-          id="advanced"
-          className={`${this.props.article === 'advanced' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Advanced Skin Rituals</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
-          <a
-            className="appointment"
-            href="https://app.acuityscheduling.com/schedule.php?owner=21354633"
-          >
-            Book Appointment
-          </a>
-          <hr />
-          <p>
-            The following Advanced Skin Rituals are priced by single application
-            or an allotted time frame. <br />
-            <br />
-            <h3>Cherry Angioma Reduction</h3>
-            <h3>Telangiectasia Vein Reduction</h3>
-            <h3>Skin Tag Reduction</h3>
-            <h3>Milia Removal </h3>
-            <em>Single treatment application: $50 (one area of concern)</em>
-            <br />
-            <em>
-              30 minute treatment: $60 (Continual treatment of more than one
-              area of concern)
-            </em>
-          </p>
-          <hr />
-          {close}
-        </article>
-
-        <article
           id="body"
           className={`${this.props.article === 'body' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
@@ -386,15 +254,15 @@ class Main extends React.Component {
 
           <h3>About</h3>
           <p>
-            We are driven and passionate masters of our craft. The adoration of
-            our work is only matched by our love for helping others. We thrive
-            on positive change in our modern day movement to make Beauty and
-            Wellness into one shared meaning. Much like the Athame; we are
-            dedicated to being your guides to natural wellness, empowerment, and
+            I am a driven and passionate master of my craft. The adoration of
+            my work is only matched by my love for helping others. I thrive
+            on positive change in this modern day movement to make Beauty and
+            Wellness into one shared meaning. Much like the Athame; I am
+            dedicated to being your guide to natural wellness, empowerment, and
             enlightened energy through the rituals of skin care, relaxation and
             positive reflection. May you find self love in mind, body and soul.
             <br /> <br />
-            <em>-Kori, Maddie and Shanna.</em>
+            <em>-Kori</em>
           </p>
 
           {close}
